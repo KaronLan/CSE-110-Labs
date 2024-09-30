@@ -1,0 +1,81 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    font-size: 28px;
+}
+.navbar #logo{
+    max-width: 400px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+.navbar li{
+    float: left;
+
+}
+.navbar li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar li a:hover {
+    background-color: #111;
+    color: white;
+}
+
+
+.section{
+    scroll-margin-top: 152.4px;
+    font-size: 28px;
+}
+
+#S1{
+    background-color: rgb(245, 240, 230);
+    margin:0;
+}
+#S2{
+    color:white;
+    background-image:url("resources/bg-orbs-1.jpg");
+    margin:0;
+}
+
+#S3{
+    background-color: rgb(245, 240, 230);
+}
+
+#wrapper{
+    display: grid;
+    grid-template-columns: 4;
+    gap: 30px;
+    padding-top: 0%;
+}
+
+#S3 p {
+    color: white;
+    background-color: rgb(5, 55, 98);
+    padding: 25px;
+}
+#p1{
+    grid-column: 1;
+    grid-row: 1;
+}
+#p2{
+    grid-column: 2;
+    grid-row: 1;
+}
+#p3{
+    grid-column: 3 ;
+    grid-row: 1;
+}
+#p4{
+    grid-column: 4;
+    grid-row: 1;
+}

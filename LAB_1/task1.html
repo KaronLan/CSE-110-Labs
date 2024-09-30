@@ -1,22 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <div>    
-        <img src="resources/logo_UCSD.png" alt="ucsd logo">
-        <a href="#S1">Section 1</a>
-        <a href="#S2">Section 2</a>
+    <div class="navbar">    
+        <img id="logo" src="resources/logo_UCSD.png" alt="ucsd logo">
+        <ul>
+            <li><a href="#S1">Section 1</a></li>
+            <li><a href="#S2">Section 2</a></li>
+            <li><a href="#S3">Section 3</a></li>
+        </ul>
     </div>
 
-    <h2 id="S1">Section 1</h2>
-    <img src="resources/ucsd-athletics-logo.svg" alt="athletic logo">
-    <p>UC San Diego is a unique place where fresh ideas are translated into solutions to benefit society—from climate science and the human microbiome to...</p>
-    <h2 id="S2">Section 2</h2>
-    <img src="resources/logos-college-logos-07-23.svg" alt="college logo">
-    <p>By any means, Warren is the best college of all.</p>
+    <div class="section" id="S1">
+        <h2>Section 1</h2>
+        <img src="resources/ucsd-athletics-logo.svg" alt="athletic logo">
+        <p>UC San Diego is a unique place where fresh ideas are translated into solutions to benefit society—from climate science and the human microbiome to...</p>
+    </div>
+
+    <div class="section" id="S2">
+        <h2>Section 2</h2>
+        <img src="resources/logos-college-logos-07-23.svg" alt="college logo">
+        <p>The Minions are small, yellow, capsule shaped creatures, all-male, who have one or two eyes that were created by Eric Guillon (though there is a running joke, thanks to Karalynn Dunton, that it was Phineas and Ferb co-creator, Dan Povenmire).</p>
+    </div>
+
+    <div class="section" id="S3">
+        <h2>Section 3</h2>
+        <div id="wrapper">
+            <p id="p1"> As a rambunctious bunch of simple-minded homunculi, Minions are a similar size and shape but have unique features to tell them apart, such as height, number of eyes, roundness or secondary features such as hair, eye/pupil size or clothing.</p>
+            <p id="p2"> Minions are yellow and wear black gloves, small black boots, metal goggles accommodating their number of eyes, and blue jean overalls with Gru's emblem on the fronts, they lack the emblem in Minions and Minions: The Rise of Gru due to them not officially being with Gru. Except for the mid-credits scene in MTROG.</p>
+            <p id="p3">Minions possess few additional physiological characteristics; with a crack and a shake, they can double as glow sticks for activities in the dark, such as going through ventilation ducts. They additionally survive air, as one is seen without Despicable Me.</p>
+            <p id="p4"> Though there are several hundred minions, there are only about forty-eight possible combinations of height and build (short and chubby, medium, tall and thin), hair (tall buzz-cut, short buzz-cut, sprout, combed, bald), and eyes (one, two). </p>
+
+        </div>
+    </div>
 </body>
 </html>
