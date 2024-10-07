@@ -63,8 +63,10 @@
 
 #S3 p {
     color: white;
-    background-color: rgb(5, 55, 98);
+    background-color:#182b49;
     padding: 25px;
+    max-height: 500px;
+    overflow: scroll;
 }
 #p1{
     grid-column: 1;
