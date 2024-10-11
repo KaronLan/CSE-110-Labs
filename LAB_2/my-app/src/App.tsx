@@ -55,6 +55,17 @@ function App() {
     console.log("Changing content:", selectedNote.content);
     setSelectedNote(initialNote);
   }
+
+  //delete notes
+  // const[seldelNote, deleteNote] = useState<Note>(initialNote);
+  // const deleteNoteHandler = (event: React.FormEvent) => {
+  //   setNotes(notes.filter(othernotes => othernotes.id !== seldelNote.id));
+  //   console.log("Delete note. title:", seldelNote.title);
+  // }
+  function deleteNote (numid: number) {
+    setNotes(notes.filter(othernotes => othernotes.id !== numid));
+
+  }
  
   
  return (
@@ -115,7 +126,7 @@ function App() {
           
           <div className="notes-header">
             <HeartButton likedCb={()=>addFav(favTitles, note.title)} ></HeartButton>
-            <button>x</button>
+            <button onClick={()=>deleteNote(note.id)} >x</button>
           </div>
 
           <h2 contentEditable='true'> {note.title} </h2>
