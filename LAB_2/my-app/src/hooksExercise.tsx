@@ -6,9 +6,6 @@ import { FaHeart } from "react-icons/fa";
 function ClickCounter() {
     const [count, setCount] = useState(0);
     console.log(count);
-    const handleClick = () => {
-      setCount(count + 1);
-    };
    
     useEffect(() => {
       document.title = `You clicked ${count} times`;
